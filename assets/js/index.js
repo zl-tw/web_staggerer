@@ -55,3 +55,8 @@ function avatar(data) {
         $('.text-avatar').html(first).show()
     }
 }
+
+// 定义一个发布文章后点击文章列表函数
+function clickArtList() {
+    $('#art_list').click()
+}
